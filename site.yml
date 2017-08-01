@@ -1,0 +1,14 @@
+title : Mr J
+tagline: Blog Tagline
+author :
+  name : JPH
+  email : jphome98@163.com
+  github : jphome
+  twitter : 
+  feedburner : 
+
+navigation :
+  - categories.html
+  - tags.html
+  - about.md
+  - static.md

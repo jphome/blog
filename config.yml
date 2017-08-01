@@ -1,0 +1,28 @@
+---
+# 注释得顶格
+# Usage: http://ruhoh.com/usage/configure/ 
+
+RuhohSpec: '1.0'
+theme : twitter
+production_url : http://jphome.github.com
+
+# summary_lines             ###< 首页的文章摘要的长度(>=5)
+# latest                    ###< 首页显示多少文章
+posts:
+  permalink: /blog/:year/:month/:day/:filename.html
+  summary_lines: 5
+  latest: 10
+
+pages:
+  permalink: 'pretty'
+
+# 配置自动插入<img>标签
+# imgtag        ###< 要插入的标签的基本格式
+# urlperfix     ###< 图片地址前缀
+# localdir      ###< 图片文件在博客内的本地存放目录
+# %s will be replace by "urlperfix / post name / img filename"
+imgs:
+  imgtag: '<img src="%s" alt="" width="600">'
+  urlperfix: '{{urls.media}}/'
+  localdir: 'media/'
+

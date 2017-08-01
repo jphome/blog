@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  {{# page.description }}
+    <meta name="description" content="{{ . }}">
+  {{/ page.description }}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width,initial-scale=0.32,maximum-scale=2.0,user-scalable=yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    {{{ assets }}}
+    <!-- 此处插入CSS -->
+    <link href="/assets/twitter/stylesheets/style.css" type="text/css" rel="stylesheet" media="all">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/" style="padding-left:134px;">{{ site.title }}</a>
+          <ul class="nav">
+            {{# site.navigation?to_pages }}
+              {{> pages_list }}
+            {{/ site.navigation?to_pages }}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        {{{ content }}}
+      </div>
+
+      <footer>
+        <p>&copy; {{ site.author.name }} 2014 
+          with help from <a href="http://github.com/wendal/gor" target="_blank" title="Gor -- Fast Blog">Gor</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+        <p>
+            <div align="center">访问计数：<a href="http://www.amazingcounters.com"><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3191179&c=9573850" alt="受关注度统计"></a></div>
+        </p>
+        <a id="Header1_HeaderTitle" class="headermaintitle" href="http://jphome.github.io/rss.xml">
+            <marquee style="FONT-SIZE: 20pt; FILTER: alpha(opacity=100,style=3); WIDTH: 100%; LINE-HEIGHT: 100%; FONT-FAMILY: 华文行楷" scrollamount="3" font="">
+                <b>I will never let a loss prevent me from believing in my splendid future!</b>
+            </marquee>
+        </a>
+      </footer>
+
+    </div>
+
+    {{{ google_prettify }}}
+    {{{ analytics }}}
+  </body>
+</html>

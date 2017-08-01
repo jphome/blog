@@ -1,0 +1,156 @@
+/* Override some defaults */
+html, body {
+  background-color: #eee;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.brand {
+  background: url(/assets/media/img/logo.png);
+  background-size: 120px 80px;
+  background-repeat: no-repeat;
+  height: 50px;
+  font-size: 40px;
+}
+.navbar {
+  margin-bottom: 0;
+  font-size: 40px;
+}
+.navbar-inner {
+  
+/*  bottom:0;
+  left:0;*/
+}
+.navbar .brand {
+  font-size: 40px;
+  padding: 18px 24px 12px;
+}
+.navbar .nav>li>a {
+  padding: 28px 20px 22px;
+}
+.navbar .container{ 
+  width: 940px;
+  height: 80px;
+}
+.container > footer {
+  margin-top: 20px;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+/* 正文 */
+p {
+  font-size: 28px;
+  line-height: 36px;
+}
+h1 {
+  font-size: 54px;
+  line-height: 72px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 72px;
+}
+h3 {
+  line-height: 54px;
+  font-size: 36px;
+}
+h4, h5, h6 {
+  line-height: 36px;
+}
+h4 {
+  font-size: 28px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+  font-size: 22px;
+}
+
+pre {
+  font-size: 24.5px;
+  line-height: 36px;
+}
+ol.linenums li {
+  line-height: 36px;
+  list-style-type: circle;
+}
+li {
+  line-height: 36px;
+}
+
+img[alt=photography] {
+  width: 900px;
+}
+
+/*li.L0,li.L1,li.L2,li.L3,li.L4,li.L5,li.L6,li.L7,li.L8{list-style-type:none}*/
+
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: 50px -20px 20px;
+}
+
+/* posts index */
+.post > h3.title {
+  position:relative;
+  padding-top:10px;
+  border-top:3px solid #eee;
+}
+.post > h3.title span.date { 
+  position:absolute;
+  right:0;
+  font-size:0.9em;
+}
+.post > .more {
+  margin:10px 0;
+  text-align:left;
+}
+
+/* tag_box ======================================================== */
+
+.tag_box {
+  list-style:none;
+  margin:0;
+  padding:5px 0 ;
+  overflow:hidden;
+}
+.tag_box li {
+  line-height:28px;
+}
+.tag_box.inline li {
+  float:left;
+}
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color:#005F6B;
+  border-radius: 3px;
+  text-decoration:none;
+}
+.tag_box a span{
+  vertical-align:super;
+  font-size:0.8em;
+}
+.tag_box a.active {
+  background:#57A957;
+  border:1px solid #4C964D;
+  color:#FFF;
+}
