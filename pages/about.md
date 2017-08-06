@@ -16,9 +16,9 @@ description:
 					</a>&nbsp; 
 					<img style="_margin-bottom:-4px;" width="20" height="20" src="https://res.mail.qq.com/zh_CN/htmledition/images/icon_linkedin.png" title="Linkedin">
 				</div>
-				<div style="line-height:48px;">中国 浙江 杭州 | 项目经理
+				<div style="line-height:48px;">中国 浙江 杭州 | 产品经理 & 项目经理
 				</div>
-				<div style="line-height:48px;">工业自动化
+				<div style="line-height:48px;">安防监控
 				</div>
 			</div>
 		</div>
@@ -29,13 +29,17 @@ description:
 ---
 
 <div class="row">
-	<div class="span6" align="center">
-		<img src="/assets/media/img/ME微信.jpg" style="width: 430px; height: 430px;" alt="微信二维码" title="微信个人账号 扫一扫">
+	<div class="span4" align="center">
+		<img src="/assets/media/img/ME微信.jpg" style="width: 100%;" alt="微信二维码" title="微信个人账号 扫一扫">
 		<a>微信</a>
 	</div>
-	<div class="span6" align="center">
-		<img src="/assets/media/img/ME公众号.jpg" style="width: 430px; height: 430px;" alt="微信二维码" title="微信公众号 扫一扫">
+	<div class="span4" align="center">
+		<img src="/assets/media/img/ME公众号.jpg" style="width: 100%;" alt="微信二维码" title="微信公众号 扫一扫">
 		<a>公众号</a>
+	</div>
+	<div class="span4" align="center">
+		<img src="/assets/media/img/ME小程序.jpg" style="width: 100%;" alt="微信二维码" title="微信小程序 扫一扫">
+		<a>小程序</a>
 	</div>
 </div>
 
